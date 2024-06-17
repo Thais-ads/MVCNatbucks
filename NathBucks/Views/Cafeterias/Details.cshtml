@@ -1,0 +1,63 @@
+﻿@model NathBucks.Models.Cafeteria
+
+@{
+    ViewData["Title"] = "Details";
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://img.freepik.com/free-vector/restaurant-mural-wallpaper_52683-47493.jpg?w=1380&t=st=1696104351~exp=1696104951~hmac=1d7d71f1979fb7896dc78c74348761c93c56c5e9373b2f3c927c3ab876281018');
+            background-repeat: no-repeat;
+            background-size: cover;
+            / Redimensiona a imagem para cobrir a tela inteira / background-position: center;
+            / Centraliza a imagem / background-repeat: no-repeat;
+            / Evita a repetição da imagem */ height: 100vh;
+        }
+
+        .row {
+            background-color: rgb(210, 210, 210, 0.8);
+            padding: 50px;
+            justify-content: center;
+            align-content: center;
+            width: 100%;
+            max-height: 400px;
+            border-radius: 21px;
+            font-size: 15pt;
+            color: black;
+        }
+    </style>
+}
+
+
+
+<div>
+    <h4>Cafeteria</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Funcionarios)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Funcionarios)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.EstoqueCafe)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EstoqueCafe)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.EstoqueCopos)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EstoqueCopos)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.IdCafeteria" class="btn btn-warning">Editar</a> |
+    <a asp-action="Index" class="btn btn-secondary">Voltar</a>
+</div>

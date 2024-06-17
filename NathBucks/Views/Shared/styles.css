@@ -1,0 +1,11 @@
+﻿body {
+
+    #carouselExampleControls {
+    max-height: 300px; /* Altura máxima para o carrossel */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+#carouselExampleControls .carousel-inner .carousel-item img {
+    max-height: 250px; /* Altura máxima para as imagens dentro do carrossel */
+}
+}
