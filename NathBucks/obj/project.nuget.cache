@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+IOK7pFdaaG/x0XBuifpYEOUVw7Q3/Cdn7rQehy0NOj+NHY7hvbcoFLDtQ30gxyj9Q2uhJfe2iX5a1lTI3z35A==",
+  "dgSpecHash": "vY64bYaYO+k=",
   "success": true,
-  "projectFilePath": "C:\\Users\\thais\\OneDrive\\Desktop\\NathBucks\\NathBucks\\NathBucks.csproj",
+  "projectFilePath": "C:\\Users\\thais\\Desktop\\MVCNatbucks\\NathBucks\\NathBucks.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thais\\.nuget\\packages\\bootstrap\\5.3.1\\bootstrap.5.3.1.nupkg.sha512",
     "C:\\Users\\thais\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
